@@ -24,6 +24,11 @@ local plugins = {
             require('configs/treesitter').setup()
         end
     },
+    {
+        "rose-pine/neovim",
+        name = "rose-pine",
+        url = git_url("rose-pine/neovim"),
+    }
 }
 
 require('lazy').setup(plugins)
