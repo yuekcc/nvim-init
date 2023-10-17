@@ -25,9 +25,10 @@ local plugins = {
         end
     },
     {
-        "rose-pine/neovim",
-        name = "rose-pine",
-        url = git_url("rose-pine/neovim"),
+        "folke/tokyonight.nvim",
+        url = git_url("folke/tokyonight.nvim"),
+        lazy = true,
+        opts = { style = "moon" },
     }
 }
 

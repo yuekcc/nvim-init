@@ -1,4 +1,4 @@
 require('options')
 require('plugins')
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme tokyonight')
