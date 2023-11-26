@@ -4,7 +4,7 @@ if not vim.loop.fs_stat(lazypath) then
         'git',
         'clone',
         '--filter=blob:none',
-        'https://ghproxy.com/https://github.com/folke/lazy.nvim.git',
+        'https://github.moeyy.xyz/https://github.com/folke/lazy.nvim.git',
         '--branch=stable',
         lazypath,
     })
@@ -13,7 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 function git_url(repo_name)
-    return 'https://ghproxy.com/https://github.com/' .. repo_name .. '.git'
+    return 'https://github.moeyy.xyz/https://github.com/' .. repo_name .. '.git'
 end
 
 local plugins = {

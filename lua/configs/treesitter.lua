@@ -2,7 +2,7 @@ local M = {}
 
 function M.setup()
     for _, config in pairs(require("nvim-treesitter.parsers").get_parser_configs()) do
-        config.install_info.url = config.install_info.url:gsub("https://github.com/", "https://ghproxy.com/https://github.com/")
+        config.install_info.url = config.install_info.url:gsub("https://github.com/", "https://github.moeyy.xyz/https://github.com/")
       end
 
     local config = {
